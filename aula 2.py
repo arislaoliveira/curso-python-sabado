@@ -1,28 +1,3 @@
-x = 10
-y = 20
-z = x + y
-
-print('Soma de ', x,'+', y, '=', z)
-print('Soma de ' + str(x) + ' + ' + str(y) + ' = ' + str(z))
-
-x = int(input('Digite um número: '))
-
-if x < 0:
-    print('O número que você digitou é negativo!')
-
-print('Fim do programa!')
-
-x = int(input("Digite um número: "))
-
-if (x == 0):
-  print('O número que você digitou é 0!!')
-elif (x < 0):
-  print('O número que você digitou é negativo!!')
-else:
-  print('O número que você digitou é positivo!!')
-
-print('Fim do programa!!')
-
 #Exercicios
 '''
 1. Faça um programa que receba dois números e mostre o maior e o menor. Emita uma mensagem, caso os dois sejam iguais.

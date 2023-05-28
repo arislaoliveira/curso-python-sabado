@@ -1,24 +1,3 @@
-#Estrutura de repetição
-nome = 'Arisla'
-for c in nome:
-    print(c)
-
-for i in range(1,11):
-    print(i)
-
-
-idade = int(input('Digite uma idade: '))
-while (idade <= 0):
-    idade = int(input('Idade inválida! Digite Novamente: '))
-
-ano_nascimento = 2023 - idade
-print('Você nasceu em', ano_nascimento)
-
-f = 1
-while (f <= 10):
-    print(f)
-    f += 1
-
 #Exercicios
 #WHILE
 

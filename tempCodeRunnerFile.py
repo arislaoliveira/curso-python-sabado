@@ -1,7 +1,6 @@
-import requests
+palavra = input('Escreva uma palavra: ').lower()
 
-res = requests.get('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
-
-cotacoes = res.json()
-
-cotacoes['USDBRL']['bid']
+if palavra == palavra[::-1]:
+    print('A palavra {} é um palíndromo'.format(palavra))
+else:
+    print('A palavra {} não é um palíndromo'.format(palavra))
